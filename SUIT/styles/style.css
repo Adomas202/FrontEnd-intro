@@ -8,7 +8,7 @@ body {
     margin-top: 10%;
 }
 
-.box {
+.FlashMessage {
     height: auto;
     margin-right: auto;
     margin-left: auto;
@@ -20,25 +20,18 @@ body {
     border: 2px solid;
     border-right-width: 60px;
     border-radius: 6px;
-}
-
-.box--stateSuccess {
-    border-color: #2e8025;
-}
-
-.box--stateWarning {
     border-color: #ffb706;
 }
 
-.box-email {
+.FlashMessage--stateSuccess {
+    border-color: #2e8025;
+}
+
+.FlashMessage-email {
     color: #658fe6;
     text-decoration: none;
 }
 
-.u-firstBox {
+.u-spaceBottom {
     margin-bottom: 1em;
-}
-
-.u-lastBox {
-    marghin-top: 1em;
 }
